@@ -1,0 +1,72 @@
+@keyframes spinner {
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 0 0 5px 2px yellow;
+    }
+    25%{
+        transform: rotate(90deg);
+        box-shadow: 0 0 5px 2px blue;
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 0 0 5px 2px red;
+    }
+    75%{
+        transform: rotate(270deg);
+        box-shadow: 0 0 5px 2px hotpink;
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 0 0 5px 2px green;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-size{
+    width: 6%;
+}
+.ul-style li{
+    list-style: none;
+    margin: 0 1.4375rem;
+    cursor: pointer;
+    align-items: center;
+}
+.bg-of-counter-input{
+    background-color: rgb(255, 253, 228);
+    width: 100%;
+    padding: 5px 10px;
+    color: grey;
+    font-weight: 700;
+    height: 13vh;
+    padding: 5vh 0 5vh 5vh;
+}
+.author-img-width{
+    width: 9%;
+    height: 65px;
+}
+.cardImg{
+    width: 100%;
+    height: 100%;
+}
+.btn-hover:hover{
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+    padding: 3px;
+}
+.bg-nav-items{
+    background-color: rgb(188, 188, 188);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+.blog-container{
+    margin: 0 20%;
+}
+.ring{
+    background-color: indianred;
+    animation: spinner 1.5s ease infinite;
+    height: 200px;
+    border-radius: 50%;
+}
